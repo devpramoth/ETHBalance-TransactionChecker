@@ -7,8 +7,12 @@ The scripts use the API from [etherscan.io](https://etherscan.io/apis)
 Copy or download the code and run in terminal:
 
 ```terminal
-python balancecheck.py
+python BalanceCheck.py
 ```
 
+
+```terminal
+python TransactionsCheck.py
+```
 
 
