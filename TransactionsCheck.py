@@ -13,7 +13,7 @@ sum = 0
 
 #Calling the API from EtherScan to return transactions from an address. Insert your APIKEY
 for i in range(len(address)):
-    payload = {'module': 'account', 'action': 'txlist', 'address': address[i], 'apikey': 'UDQYZ59SVS5WHH56JYTZA5WC9N6XEZW2GX'}  
+    payload = {'module': 'account', 'action': 'txlist', 'address': address[i], 'apikey': 'APIKEY'}  
     r = requests.get('https://api.etherscan.io/api', params=payload)
     print("This is address: ",i+1," of ",len(address))
     strr = "This is address: ",i+1," of ",len(address)
